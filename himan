@@ -1,4 +1,13 @@
-
+local whitelist = {"Name"}
+local p = game.Players.LocalPlayer
+    if whitelist[p.Name] or p:IsInGroup(14806099) then
+      print("Whitelisted")
+    
+    else
+          p:Kick("group copied to clip board join or kick")
+    end
+    
+    
 function NovaNoti(Title, Text, Icon, Duration)
 	game.StarterGui:SetCore("SendNotification", {
 		Title = Title;
