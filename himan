@@ -1,7 +1,3 @@
--- By Compwnter#5640
--- Script Name: Nova Gui V2.3 Remade
--- https://discord.io/legacyx
--- https://discord.gg/jojow
 
 function NovaNoti(Title, Text, Icon, Duration)
 	game.StarterGui:SetCore("SendNotification", {
