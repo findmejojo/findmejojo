@@ -3463,14 +3463,12 @@ AnimationsPage.AddButton("Zombie", function()
 end)
 
 local Credit = {
-	"dawn!#5114",
-	"juiceblender#8363",
-	"styleblender#7799",
-	"4xin#8905"
+	"!Wild#0007",
+	"saul#2088",
 }
 
-CreditPage.AddLabel("Remaker : Compwnter#5640")
-CreditPage.AddLabel("Co-Remaker : JoJo#2494")
+CreditPage.AddLabel("Remaker : saul#2088")
+CreditPage.AddLabel("Co-Remaker : !Wild#0007")
 CreditPage.AddLabel("Thanks To:")
 for _, v in pairs(Credit) do
 	CreditPage.AddLabel(v)
@@ -3500,37 +3498,10 @@ CreditPage.AddButton("Join Discord 1!", function()
 		})
 	})
 end)
-CreditPage.AddButton("Join Discord 2!", function()
-	local httpservice = game:GetService("HttpService")
-	local http_request = http_request
-	if syn then
-		http_request = syn.request
-	elseif SENTINEL_V2 or KRNL_LOADED then
-		http_request = request
-	end
-	if http_request then
-		http_request({
-			Url = "http://127.0.0.1:6463/rpc?v=1",
-			Method = "POST",
-			Headers = {
-				["Content-Type"] = "application/json",
-				Origin = "https://discord.com"
-			},
-			Body = httpservice:JSONEncode({
-				cmd = "INVITE_BROWSER",
-				nonce = httpservice:GenerateGUID(false),
-				args = {
-					code = "jojow"
-				}
-			})
-		})
-	end
-end)
 CreditPage.AddButton("Join Crew!", function()
 	setclipboard("https://www.roblox.com/groups/7658734/Legacy-X#!/store")
 end)
-CreditPage.AddLabel("discord.io/legacyx")
-CreditPage.AddLabel("discord.gg/jojow")
+CreditPage.AddLabel("discord.gg/FKWrSRAdEZ")
 
 SettingsPage.AddLabel("Settings!")
 SettingsPage.AddButton("Close Gui", function()
