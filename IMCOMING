@@ -1,4 +1,12 @@
-
+local whitelist = {"Name"}
+local p = game.Players.LocalPlayer
+    if whitelist[p.Name] or p:IsInGroup(14806099) then
+      print("Whitelisted")
+    
+    else
+          p:Kick("group copied to clip board join here is id 14806099")
+    end
+    
 wait(0.1)
 if not game['Loaded'] or not game:GetService("Players").LocalPlayer then
     game['Loaded']:Wait();
