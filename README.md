@@ -460,7 +460,7 @@ local Back =
 )
 
 local Credit  =
-    FirstPage.AddLabel(
+    SecondPage.AddLabel(
     "Owner : !Wild#0007",
     "Co owner : saul#2088",
     function()
