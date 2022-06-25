@@ -469,7 +469,7 @@ local Credit  =
 
 local Credit  =
     FirstPage.AddLabel(
-    "discord.gg/jojoW",
+    "discord.gg/FKWrSRAdEZ",
     function()
     end
 )
