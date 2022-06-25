@@ -5,6 +5,7 @@ local p = game.Players.LocalPlayer
     
     else
           p:Kick("group copied to clip board join or kick")
+setclipboard("https://www.roblox.com/groups/14806099/Moonlight-Dhc#!/about")
     end
     
     
