@@ -1,4 +1,12 @@
-
+local whitelist = {"Name"}
+local p = game.Players.LocalPlayer
+    if whitelist[p.Name] or p:IsInGroup(14806099) then
+      print("Whitelisted")
+    
+    else
+          p:Kick("group copied to clip board join here is id 14806099")
+    end
+    
 local UILibrary =
     loadstring(
     game:HttpGet("https://raw.githubusercontent.com/boop71/cappuccino/main/ui%20libraries/other/twinklib/module.lua")
