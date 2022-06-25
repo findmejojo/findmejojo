@@ -3475,28 +3475,7 @@ for _, v in pairs(Credit) do
 end
 CreditPage.AddLabel("For Help")
 CreditPage.AddButton("Join Discord 1!", function()
-	local httpservice = game:GetService("HttpService")
-	local http_request = http_request
-	if syn then
-		http_request = syn.request
-	elseif SENTINEL_V2 or KRNL_LOADED then
-		http_request = request
-	end
-	http_request({
-		Url = "http://127.0.0.1:6463/rpc?v=1",
-		Method = "POST",
-		Headers = {
-			["Content-Type"] = "application/json",
-			Origin = "https://discord.com"
-		},
-		Body = httpservice:JSONEncode({
-			cmd = "INVITE_BROWSER",
-			nonce = httpservice:GenerateGUID(false),
-			args = {
-				code = game:HttpGet("https://raw.githubusercontent.com/compwnter/miscellaneous/main/invite")
-			}
-		})
-	})
+setclipboard("discord.gg/FKWrSRAdEZ")
 end)
 CreditPage.AddButton("Join Crew!", function()
 	setclipboard("https://www.roblox.com/groups/7658734/Legacy-X#!/store")
