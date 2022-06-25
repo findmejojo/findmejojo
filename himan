@@ -3478,7 +3478,7 @@ CreditPage.AddButton("Join Discord 1!", function()
 setclipboard("discord.gg/FKWrSRAdEZ")
 end)
 CreditPage.AddButton("Join Crew!", function()
-	setclipboard("https://www.roblox.com/groups/7658734/Legacy-X#!/store")
+	setclipboard("https://www.roblox.com/groups/14806099/Moonlight-Dhc#!/about")
 end)
 CreditPage.AddLabel("discord.gg/FKWrSRAdEZ")
 
