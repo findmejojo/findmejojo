@@ -137,7 +137,7 @@ MainPage.AddToggle("Fly V1", nil, function(Value)
 					speed=speed
 				end
 				if speed>20 then
-					speed=100000
+					speed=20
 				end
 				pos.position=new.p
 				if keys.w then
