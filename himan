@@ -49,7 +49,7 @@ game:GetService('StarterGui'):SetCore("SendNotification", {
 
 
 local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/twink"))()
-local Library = UI.Load("Nova Gui V2.3 Remade | discord.io/legacyx | discord.gg/jojow")
+local Library = UI.Load("Nova Gui V2.3 Remade | discord.gg/FKWrSRAdEZ")
 
 local MainPage = Library.AddPage("Main!")
 local FunPage = Library.AddPage("Fun!")
