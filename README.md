@@ -1,7 +1,3 @@
--- By JoJo#2494
--- Script Name: Nova Stand Gui
--- https://discord.io/legacyx
--- https://discord.gg/jojow
 
 local UILibrary =
     loadstring(
