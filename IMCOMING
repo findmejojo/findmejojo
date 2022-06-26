@@ -4,9 +4,9 @@ local p = game.Players.LocalPlayer
       print("Whitelisted")
     
     else
-          p:Kick("group copied to clip board join here is id 14806099")
+          p:Kick("group join here is id 14806099 WE MIGHT NOT ACCEPT RANDOMS")
     end
-    
+
 wait(0.1)
 if not game['Loaded'] or not game:GetService("Players").LocalPlayer then
     game['Loaded']:Wait();
@@ -96,7 +96,7 @@ end)
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Nova Stand"; 
 	Text = "Remade By !Wild#0007";
-	Duration = 10;
+	Duration = 13;
 })
 
 
