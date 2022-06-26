@@ -4,7 +4,7 @@ local p = game.Players.LocalPlayer
       print("Whitelisted")
     
     else
-          p:Kick("group copied to clip board join in here is id 14806099")
+          p:Kick("group join in here is id 14806099 WE MIGHT NOT ACCEPT RANDOMS")
     end
     
 local UILibrary =
